@@ -1,6 +1,7 @@
 <?php
 
 include ('vendor/autoload.php');
+$config = include('config.php');
 
 
 // check if index or page is specified
@@ -20,4 +21,4 @@ $file_contents = file_get_contents($filename);
 
 $mp = new Pagerange\Markdown\MetaParsedown();
 
-echo $mp->text($file_contents); // prints HTML, without meta data
+include('themes/'.$config['Theme'].'/theme.php');
