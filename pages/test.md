@@ -1,5 +1,7 @@
 ---
-#this is a test
+layout: post
+title: Blogging Like a Hacker
+
 ---
 # Intro
 Go ahead, play around with the editor! Be sure to check out **bold** and *italic* styling, or even [links](https://google.com). You can type the Markdown syntax, use the toolbar, or use shortcuts like `cmd-b` or `ctrl-b`.
